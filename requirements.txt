@@ -1,0 +1,10 @@
+# Runtime dependencies (same as pyproject.toml). Tested versions are listed in README.md.
+numpy>=1.24
+scipy>=1.10
+scikit-image>=0.21
+opencv-python-headless>=4.8
+Pillow>=10.0
+pandas>=2.0
+matplotlib>=3.7
+# tests
+pytest>=7

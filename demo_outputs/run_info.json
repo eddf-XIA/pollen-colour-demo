@@ -1,0 +1,128 @@
+{
+  "data_origin": "synthetic_demo",
+  "package_version": "0.1.0",
+  "params_hash": "e6b4906896c6629d",
+  "params": {
+    "dish": {
+      "scale": 2,
+      "blur_ksize": 7,
+      "dp": 1.2,
+      "param1": 80,
+      "param2": 40,
+      "radius_range_frac_of_min_side": [
+        0.25,
+        0.48
+      ],
+      "refine_search_rho": [
+        0.9,
+        1.3
+      ],
+      "refine_n_rays": 720
+    },
+    "segmentation": {
+      "coarse_R_px": 200,
+      "feature_sigma_coarse_px": 1.5,
+      "bg_texture_max": 4.0,
+      "bg_chroma_max": 12.0,
+      "bg_lightness_min": 55.0,
+      "rim_zone_rho": 0.89,
+      "fine_sigma_R": 0.0025,
+      "refine_depth_R": 0.03,
+      "coarse_morph_radius": 2,
+      "floor_margin_R": 0.08,
+      "floor_min_component_R": 0.01,
+      "rim_glare_rho": 0.85,
+      "boundary_band_R": 0.02,
+      "shadow_se_radius_R": 0.0075,
+      "shadow_depth_L": 15.0,
+      "void_se_radius_R": 0.02
+    },
+    "distribution": {
+      "L_edges": [
+        0,
+        100,
+        10
+      ],
+      "a_edges": [
+        -110,
+        110,
+        10
+      ],
+      "b_edges": [
+        -110,
+        110,
+        10
+      ],
+      "low_chroma_C_max": 15.0,
+      "dark_L_max": 20.0,
+      "hue_min_chroma": 5.0
+    }
+  },
+  "scenes": [
+    {
+      "scene_id": "synthetic_01",
+      "seed": 101,
+      "R": 400.0,
+      "cx": 610.0,
+      "cy": 590.0,
+      "crescent_deg": 0.0,
+      "mix": {
+        "orange": 0.25,
+        "yellow": 0.2,
+        "brown": 0.15,
+        "cream": 0.15,
+        "grey": 0.15,
+        "dark": 0.1
+      }
+    },
+    {
+      "scene_id": "synthetic_02",
+      "seed": 102,
+      "R": 380.0,
+      "cx": 585.0,
+      "cy": 620.0,
+      "crescent_deg": 140.0,
+      "mix": {
+        "orange": 0.5,
+        "yellow": 0.4,
+        "brown": 0.1
+      }
+    },
+    {
+      "scene_id": "synthetic_03",
+      "seed": 103,
+      "R": 420.0,
+      "cx": 630.0,
+      "cy": 605.0,
+      "crescent_deg": 250.0,
+      "mix": {
+        "cream": 0.35,
+        "grey": 0.35,
+        "dark": 0.2,
+        "brown": 0.1
+      }
+    },
+    {
+      "scene_id": "synthetic_04",
+      "seed": 104,
+      "R": 395.0,
+      "cx": 600.0,
+      "cy": 602.0,
+      "crescent_deg": null,
+      "mix": {
+        "brown": 0.6,
+        "dark": 0.4
+      }
+    }
+  ],
+  "libraries": {
+    "python": "3.13.5",
+    "numpy": "2.2.6",
+    "scipy": "1.16.3",
+    "scikit-image": "0.26.0",
+    "opencv": "4.13.0",
+    "Pillow": "11.3.0",
+    "pandas": "2.3.3",
+    "matplotlib": "3.10.6"
+  }
+}

@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.venv/
+# original (unredacted) photographs and raw data must never be added to this repository
+*.jpg
+*.jpeg
+*.JPG
+*.tif
+*.tiff
+*.zip
+*.npz
+demo_outputs/inputs/
+demo_outputs/label_maps/
+# internal review documents stay out of the repository and its history
+PUBLICATION_REVIEW.md
+REVIEW_SUMMARY.md
+PROVENANCE.md
+AUTHORIZATION_RECORD*
+*_INTERNAL*
+**/metadata/build_manifest*

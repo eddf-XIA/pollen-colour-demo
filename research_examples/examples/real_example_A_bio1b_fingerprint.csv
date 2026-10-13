@@ -1,0 +1,22 @@
+example_id,state_id,state_order,state_name,rep_hex,n_px,proportion,se_proportion_block,release_id
+real_example_A,S02,2,dark red-purple,#6d3733,7200,0.00564676652032,0.000559567471577,cdna-2.0.0-bio1b
+real_example_A,S03,3,light red-purple,#bf4f92,34,2.6665286346e-05,1.44526157978e-05,cdna-2.0.0-bio1b
+real_example_A,S04,4,dark muted orange,#6e452e,28110,0.0220459176231,0.00117916258393,cdna-2.0.0-bio1b
+real_example_A,S05,5,medium-dark vivid orange,#a86222,61321,0.0480924124712,0.00279407209025,cdna-2.0.0-bio1b
+real_example_A,S06,6,dark muted orange-yellow,#7b582c,50903,0.0399218550255,0.00168424499903,cdna-2.0.0-bio1b
+real_example_A,S07,7,medium-dark muted orange-yellow (a),#8b672a,83730,0.0656671889926,0.00236458140213,cdna-2.0.0-bio1b
+real_example_A,S08,8,medium-dark muted orange-yellow (b),#92744b,59695,0.0468171843654,0.00209912391782,cdna-2.0.0-bio1b
+real_example_A,S09,9,medium-dark vivid orange-yellow (a),#9f762a,121115,0.0949872398762,0.00298415473206,cdna-2.0.0-bio1b
+real_example_A,S10,10,medium-dark muted orange-yellow (c),#a88655,93735,0.0735138416364,0.00263339713368,cdna-2.0.0-bio1b
+real_example_A,S11,11,medium-dark vivid orange-yellow (b),#c77d0d,105497,0.0827384621659,0.00458553423187,cdna-2.0.0-bio1b
+real_example_A,S12,12,medium-light vivid orange-yellow (a),#b08832,133934,0.105040837102,0.00341543880068,cdna-2.0.0-bio1b
+real_example_A,S13,13,medium-light muted orange-yellow (a),#bb975d,130096,0.102030796837,0.00324435592032,cdna-2.0.0-bio1b
+real_example_A,S14,14,medium-light vivid orange-yellow (b),#c59836,105635,0.0828466918575,0.00308474837676,cdna-2.0.0-bio1b
+real_example_A,S15,15,medium-light vivid orange-yellow (c),#e99a00,28028,0.0219816072266,0.00199304309436,cdna-2.0.0-bio1b
+real_example_A,S16,16,medium-light muted orange-yellow (b),#ceaa6b,106346,0.0834043100514,0.00352258399209,cdna-2.0.0-bio1b
+real_example_A,S17,17,medium-light vivid orange-yellow (d),#dbab44,88684,0.0695524780678,0.00351777304717,cdna-2.0.0-bio1b
+real_example_A,S18,18,light muted orange-yellow,#eabf76,50258,0.0394159988581,0.00324075310649,cdna-2.0.0-bio1b
+real_example_A,S19,19,light vivid orange-yellow,#f8bf38,15501,0.0121570177544,0.00135867453639,cdna-2.0.0-bio1b
+real_example_A,S21,21,light green / yellow-green,#a3a473,1602,0.00125640555077,0.000166462149199,cdna-2.0.0-bio1b
+real_example_A,S24,24,dark grey (neutral 3.5),#69574b,798,0.000625849956002,0.000111560844818,cdna-2.0.0-bio1b
+real_example_A,S25,25,mid grey (neutral 5),#827664,2844,0.00223047277553,0.000388451769316,cdna-2.0.0-bio1b
