@@ -18,13 +18,16 @@
 - Colours are image-derived colour states, **not plant taxa** and not reflectance.
 - Crop system describes where the hive was placed. It does not identify the plants the pollen came from.
 - No biological, ecological or DNA comparison is shown or implied.
+- They illustrate measurement and QC. They are **not** independent ground-truth accuracy validation: there are no
+  pixel-level ground-truth labels for real photos, and the mask classes are image-measurement classes, not a
+  botanical classification of pollen.
 
 ## Research workflow vs the runnable demo
 
 | | Research v2 extraction (this folder) | Synthetic demo (`src/`, `demo_outputs/`) |
 |---|---|---|
 | Input | Real photos (JPEG, sRGB profile verified) | Generated images only |
-| Dish geometry and pixel classification | Full pipeline | Same core steps, adapted |
+| Dish geometry and pixel measurement/exclusion classes | Full pipeline | Same core steps, adapted |
 | ColorChecker calibration (tone map + session matrix) | Yes (raw and calibrated colour kept) | **Omitted** |
 | QC panels, automatic flags, replicate-photo checks, v1 comparison | Yes | **Omitted** |
 | Colour summary | Frozen 21-state colour basis (fingerprints) | Fixed-bin CIELAB histograms |
